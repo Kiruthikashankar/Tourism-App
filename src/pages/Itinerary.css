@@ -1,0 +1,63 @@
+.itinerary-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fefefe;
+    color: #111;
+    padding: 2rem;
+  }
+  
+  .itinerary-container h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .form-group {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background: #fff7e6;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  input,
+  select {
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    background: #ffd700;
+    border: none;
+    padding: 0.75rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ffa500;
+  }
+  
+  .plan-output {
+    margin-top: 2rem;
+  }
+  
+  .plan-card {
+    margin-top: 1rem;
+    background: #e0f7fa;
+    padding: 1rem;
+    border-left: 6px solid #00796b;
+    border-radius: 8px;
+  }
+  

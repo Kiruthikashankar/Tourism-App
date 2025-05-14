@@ -1,0 +1,28 @@
+.footer {
+    width: 100%;
+    padding: 2rem 0;
+    background-color: #f2f2f2;
+    color: #222;
+    text-align: center;
+    font-size: 1rem;
+    border-top: 2px solid #d32f2f; /* Malaysian red */
+    margin-top: 4rem;
+  }
+  
+  .footer span {
+    font-weight: 600;
+    color: #1976d2; /* Clean blue accent */
+  }
+  
+  .footer a {
+    color: #d32f2f;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 0.5rem;
+    transition: 0.3s ease;
+  }
+  
+  .footer a:hover {
+    color: #1976d2;
+  }
+  
